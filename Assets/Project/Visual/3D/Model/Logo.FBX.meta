@@ -1,21 +1,19 @@
 fileFormatVersion: 2
-guid: b23b53480b150ae42b7d5a3a8b1bd57e
+guid: 0167957aa91ca5148af01272d22af2a4
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Icon_A
-    100004: Icon_B
     400000: //RootNode
-    400002: Icon_A
-    400004: Icon_B
-    2100000: 'Material #37'
-    2300000: Icon_A
-    2300002: Icon_B
-    3300000: Icon_A
-    3300002: Icon_B
-    4300000: Icon_A
-    4300002: Icon_B
+    2100000: 'Material #62'
+    2100002: 'Material #60'
+    2100004: 'Material #57'
+    2100006: 'Material #58'
+    2100008: 'Material #59'
+    2100010: 'Material #61'
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Logo
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -50,6 +48,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -74,6 +73,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
