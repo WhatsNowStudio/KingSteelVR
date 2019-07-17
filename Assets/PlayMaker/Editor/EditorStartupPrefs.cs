@@ -42,7 +42,7 @@ namespace HutongGames.PlayMakerEditor
                         // There are too many edge cases where Unity isn't ready to load resources
                         // E.g., after importing a unitypackage
                         // So we won't log a message to avoid support spam.
-                        UnityEngine.Debug.Log("PlayMaker: Missing EditorStartupPrefs asset!");
+                        //UnityEngine.Debug.Log("PlayMaker: Missing EditorStartupPrefs asset!");
                     }
                 }
                 return instance;
@@ -174,10 +174,21 @@ namespace HutongGames.PlayMakerEditor
             var buildVersionInfo = UnityBuildVersion.Split('.');
             if (buildVersionInfo.Length < 2) return true; // shouldn't happen
 
-            if (int.Parse(currentVersionInfo[0]) < int.Parse(buildVersionInfo[0])) return false;
-            if (int.Parse(currentVersionInfo[1]) < int.Parse(buildVersionInfo[1])) return false;
+            var currentVersionMajor = int.Parse(currentVersionInfo[0]);
+            var currentVersionMinor = int.Parse(currentVersionInfo[1]);
+            var buildVersionMajor = int.Parse(buildVersionInfo[0]);
+            var buildVersionMinor = int.Parse(buildVersionInfo[1]);
 
-            return true;
+            if (currentVersionMajor > buildVersionMajor) return true;
+            if (currentVersionMajor == buildVersionMajor)
+            {
+                return currentVersionMinor >= buildVersionMinor;
+            }
+                
+            // currentVersionMajor < buildVersionMajor
+            // so not compatible
+
+            return false;
         }
 
         public static void Save()
