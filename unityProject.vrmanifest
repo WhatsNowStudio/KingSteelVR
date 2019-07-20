@@ -2,13 +2,13 @@
   "source": "Unity",
   "applications": [
     {
-      "app_key": "application.generated.unity.project.exe",
+      "app_key": "application.generated.unity.kingsteelvr.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Work\\UnityProject\\ChinFongVR\\Project\\actions.json",
+      "action_manifest_path": "C:\\Work\\UnityProject\\KingSteelVR\\actions.json",
       "strings": {
         "en_us": {
-          "name": "ChinFongVR [Testing]"
+          "name": "KingSteelVR [Testing]"
         }
       }
     }

@@ -103,6 +103,7 @@ ModelImporter:
     2100002: No Name
     2100004: Color4324
     2100006: 24 - Default
+    2100008: 'Material #37'
     2300000: Base
     2300002: Shell_End
     2300004: Shell_Mid
@@ -298,7 +299,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
