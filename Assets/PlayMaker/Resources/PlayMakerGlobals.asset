@@ -52,3 +52,5 @@ MonoBehaviour:
   - Reset
   - TrackPadL
   - TrackPadR
+  - TrackPadUp
+  - TrackPadDown
