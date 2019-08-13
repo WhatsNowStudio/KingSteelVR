@@ -34,6 +34,8 @@ RectTransform:
   m_Children:
   - {fileID: 6489709721231472615}
   - {fileID: 351947299}
+  - {fileID: 4413023294046857057}
+  - {fileID: 2792492531799420568}
   m_Father: {fileID: 7519656381371991458}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -586,7 +588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1072,6 +1074,80 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 11400000, guid: 056e3644d073b1a418b69a522efef9b4, type: 2}
   eventHandlerComponentsAdded: 1
+--- !u!1 &3227187495028731088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2792492531799420568}
+  - component: {fileID: 8454724496580355828}
+  - component: {fileID: 6160683458170630639}
+  m_Layer: 8
+  m_Name: MICS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2792492531799420568
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3227187495028731088}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.018893888, y: 0.018893888, z: 0.018893888}
+  m_Children: []
+  m_Father: {fileID: 211940733}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 329.2, y: -301}
+  m_SizeDelta: {x: 2391, y: 1791}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8454724496580355828
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3227187495028731088}
+  m_CullTransparentMesh: 0
+--- !u!114 &6160683458170630639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3227187495028731088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 0b1ee024cede4624aa7dd3bb23636be5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
 --- !u!1 &6348714533645523197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1640,6 +1716,80 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!1 &8995967462067599690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4413023294046857057}
+  - component: {fileID: 4579618018030183488}
+  - component: {fileID: 2265925509665441630}
+  m_Layer: 8
+  m_Name: LOGO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4413023294046857057
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8995967462067599690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.016810702, y: 0.016810702, z: 0.016810702}
+  m_Children: []
+  m_Father: {fileID: 211940733}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 282.7, y: -299.3}
+  m_SizeDelta: {x: 2391, y: 1791}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4579618018030183488
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8995967462067599690}
+  m_CullTransparentMesh: 0
+--- !u!114 &2265925509665441630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8995967462067599690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 2d307400887b336489e502b9766bcdb8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
 --- !u!1001 &2474785283950873426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1647,11 +1797,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7517944146583536970}
     m_Modifications:
-    - target: {fileID: 432079256207111719, guid: f9f96fc13c3c8794195586a900c623c6,
-        type: 3}
-      propertyPath: m_Name
-      value: MachinesNumber
-      objectReference: {fileID: 0}
     - target: {fileID: 3530592752449535681, guid: f9f96fc13c3c8794195586a900c623c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1756,6 +1901,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 432079256207111719, guid: f9f96fc13c3c8794195586a900c623c6,
+        type: 3}
+      propertyPath: m_Name
+      value: MachinesNumber
       objectReference: {fileID: 0}
     - target: {fileID: 5934685633144453802, guid: f9f96fc13c3c8794195586a900c623c6,
         type: 3}
@@ -1788,10 +1938,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7517944146583609750}
     m_Modifications:
-    - target: {fileID: 1573046029875538, guid: 25726f4088aec3547a36c132c31dff79, type: 3}
-      propertyPath: m_Name
-      value: Move
-      objectReference: {fileID: 0}
     - target: {fileID: 4665295317169986, guid: 25726f4088aec3547a36c132c31dff79, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1836,6 +1982,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1573046029875538, guid: 25726f4088aec3547a36c132c31dff79, type: 3}
+      propertyPath: m_Name
+      value: Move
+      objectReference: {fileID: 0}
     - target: {fileID: 8164055829475310108, guid: 25726f4088aec3547a36c132c31dff79,
         type: 3}
       propertyPath: fsm.states.Array.data[5].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -1866,11 +2016,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7517944146583609750}
     m_Modifications:
-    - target: {fileID: 432079256207111719, guid: f9f96fc13c3c8794195586a900c623c6,
-        type: 3}
-      propertyPath: m_Name
-      value: MachinesNumber
-      objectReference: {fileID: 0}
     - target: {fileID: 3530592752449535681, guid: f9f96fc13c3c8794195586a900c623c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1976,6 +2121,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 432079256207111719, guid: f9f96fc13c3c8794195586a900c623c6,
+        type: 3}
+      propertyPath: m_Name
+      value: MachinesNumber
+      objectReference: {fileID: 0}
     - target: {fileID: 5934685633144453802, guid: f9f96fc13c3c8794195586a900c623c6,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -2001,10 +2151,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7517944146583536970}
     m_Modifications:
-    - target: {fileID: 1573046029875538, guid: 25726f4088aec3547a36c132c31dff79, type: 3}
-      propertyPath: m_Name
-      value: Move
-      objectReference: {fileID: 0}
     - target: {fileID: 4665295317169986, guid: 25726f4088aec3547a36c132c31dff79, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2048,6 +2194,10 @@ PrefabInstance:
     - target: {fileID: 4665295317169986, guid: 25726f4088aec3547a36c132c31dff79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1573046029875538, guid: 25726f4088aec3547a36c132c31dff79, type: 3}
+      propertyPath: m_Name
+      value: Move
       objectReference: {fileID: 0}
     - target: {fileID: 8164055829475310108, guid: 25726f4088aec3547a36c132c31dff79,
         type: 3}
