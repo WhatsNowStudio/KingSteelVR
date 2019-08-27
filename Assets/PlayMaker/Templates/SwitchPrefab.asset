@@ -71,14 +71,14 @@ MonoBehaviour:
         paramName: []
         paramDataPos: 
         paramByteDataSize: 
-    - name: State 1
+    - name: "\u4EA4\u63DB"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 228
         y: 113
-        width: 108.4
+        width: 102
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101010101
-        actionIsOpen: 000000010101
+        actionIsOpen: 010001000000
         actionStartIndex: 0000000005000000060000000b0000001000000011000000
         actionHashCodes: 4ded550362f95203b2cf10004ded550362f95203b2cf1000
         unityObjectParams: []
@@ -241,12 +241,15 @@ MonoBehaviour:
     - name: TrackPadUp
       isSystemEvent: 0
       isGlobal: 1
+    - name: ViveButton
+      isSystemEvent: 0
+      isGlobal: 0
     globalTransitions:
     - fsmEvent:
-        name: TrackPadUp
+        name: ViveButton
         isSystemEvent: 0
-        isGlobal: 1
-      toState: State 1
+        isGlobal: 0
+      toState: "\u4EA4\u63DB"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
