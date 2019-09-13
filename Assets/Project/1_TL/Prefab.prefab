@@ -2458,7 +2458,7 @@ MonoBehaviour:
     - fsmEvent:
         name: Pause
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: pause
       linkStyle: 0
       linkConstraint: 0
@@ -2466,7 +2466,7 @@ MonoBehaviour:
     - fsmEvent:
         name: Play
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: Play
       linkStyle: 0
       linkConstraint: 0
