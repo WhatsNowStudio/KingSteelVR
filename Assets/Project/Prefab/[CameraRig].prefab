@@ -163,7 +163,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 00010001010101
+        actionIsOpen: 01010001010101
         actionStartIndex: 0000000004000000080000000d00000011000000170000001b000000
         actionHashCodes: 5e69bb0409fbab047ce7c500e4bc69057370ae0509fbab04ff77a904
         unityObjectParams: []
@@ -1334,20 +1334,23 @@ MonoBehaviour:
     - name: Reset
       isSystemEvent: 0
       isGlobal: 1
+    - name: Rest
+      isSystemEvent: 0
+      isGlobal: 1
     globalTransitions:
-    - fsmEvent:
-        name: Reset
-        isSystemEvent: 0
-        isGlobal: 1
-      toState: Start
-      linkStyle: 0
-      linkConstraint: 0
-      colorIndex: 0
     - fsmEvent:
         name: Process
         isSystemEvent: 0
         isGlobal: 1
       toState: "\u95DC\u5012\u6578"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: Rest
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: Start
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
@@ -1391,7 +1394,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
