@@ -906,7 +906,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1394,7 +1394,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -5210,7 +5210,7 @@ MonoBehaviour:
     RestartOnEnable: 1
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 3
+    editorFlags: 1
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
@@ -8268,7 +8268,7 @@ MonoBehaviour:
     RestartOnEnable: 1
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 3
+    editorFlags: 1
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
@@ -9090,6 +9090,7 @@ GameObject:
   - component: {fileID: 7517944146584294242}
   - component: {fileID: 7517944146594531842}
   - component: {fileID: 4356369298525555388}
+  - component: {fileID: 908270431465332322}
   m_Layer: 0
   m_Name: '[CameraRig]'
   m_TagString: Untagged
@@ -9789,7 +9790,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -9814,7 +9815,7 @@ MonoBehaviour:
     handleControllerColliderHit: 0
     handleJointBreak: 0
     handleJointBreak2D: 0
-    handleOnGUI: 0
+    handleOnGUI: 1
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
@@ -9823,7 +9824,21 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &908270431465332322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7517944146583353408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1593882804, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playMakerFSM: {fileID: 4356369298525555388}
+  previewInEditMode: 1
 --- !u!1 &7517944146583354236
 GameObject:
   m_ObjectHideFlags: 0
